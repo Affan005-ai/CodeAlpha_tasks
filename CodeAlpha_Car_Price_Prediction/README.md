@@ -84,20 +84,30 @@ The **best model is selected automatically** based on R² score.
 
 ---
 
-## 🏗️ Project Structure
+## 📁 Project Structure
 
-- Car-Price-Prediction/
-- │
-- ├── data/ # Dataset
-- ├── notebooks/ # EDA
-- ├── src/ # Modular ML code
-- ├── preprocessing.py
-- ├── model.py
-- ├── evaluation.py
-- └── init.py
-- |── models/ # Saved models
-- ├── main.py # Pipeline runner
-- └── README.md
+```text
+Car-Price-Prediction/
+│
+├── data/
+│   └── car_data.csv        # Raw dataset
+│
+├── notebooks/
+│   └── EDA.ipynb           # Exploratory analysis & charts
+│
+├── src/
+│   ├── preprocessing.py   # Data cleaning & feature engineering
+│   ├── model.py           # Model training & selection
+│   ├── evaluation.py      # Model evaluation metrics
+│   └── __init__.py        # Package initializer
+│
+├── models/
+│   ├── best_model.pkl     # Trained ML model
+│   └── preprocessor.pkl  # Saved preprocessing pipeline
+│
+├── main.py                # Runs full ML pipeline
+└── README.md
+
 
 ---
 
