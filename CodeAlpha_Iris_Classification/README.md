@@ -77,6 +77,7 @@ Includes:
 
 ## 🏗️ Project Structure
 
+```text
 Iris_Classification/
 │
 ├── data/
