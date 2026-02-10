@@ -77,11 +77,25 @@ Includes:
 
 ## 🏗️ Project Structure
 
-Iris-Classification/
+```text
+Iris_Classification/
 │
-├── Iris_EDA_and_Classification.ipynb
-├── data/ (optional)
+├── data/
+│   └── Iris.csv        # Raw dataset
+│
+├── notebooks/
+│   └── Iris_Classification_Model_Training.ipynb           # Exploratory analysis & Model Training
 └── README.md
+
+
+---
+```text
+
+## ▶️ How to Run
+
+```bash
+pip install -r requirements.txt
+python main.py
 
 ---
 
